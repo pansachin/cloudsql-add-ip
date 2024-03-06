@@ -2,8 +2,10 @@
 Add Grafana Hosted Allowlist IP's to CloudSQL Secure Networking
 
 ## Steps
-1. Copy the script to local machine and save it to a file.
-  Lets call the file as add-ips.sh
+1. Clone the repo in local
+```bash
+git clone git@github.com:pansachin/cloudsql-add-ip.git
+```
 
 2. Give execute permission to file
 ```bash
