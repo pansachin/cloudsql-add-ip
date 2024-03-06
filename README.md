@@ -1,6 +1,8 @@
 # cloudsql-add-ip
 Add Grafana Hosted Allowlist IP's to CloudSQL Secure Networking
 
+GCP Cloud SQL instance needs to know clients' IPs in order to make a secure connection b/w client and db. Grafana Cloud offers a range of IPs which could be tedious to add manually. Having a script to add IPs to Cloud SQL will help us avoid repetitive work as same problem can occur for other projects as well. This script will add Hosted Grafana allowlist IPs to CloudSQL instance secure connection.
+
 ## Steps
 1. Clone the repo in local
 ```bash
