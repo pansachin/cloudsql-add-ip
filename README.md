@@ -24,7 +24,7 @@ chmod +x add-ips.sh
 ./add-ips.sh -i sample -p pantheon-sample
 ```
 
-5 Help
+5. Help
 ```bash
 ./add-ips.sh -h
 ```
