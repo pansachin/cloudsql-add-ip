@@ -16,10 +16,15 @@ chmod +x add-ips.sh
 
 3. Run the script by passing instance name and project-name
 ```bash
-./add-ips.sh <instance-name> <project-name>
+./add-ips.sh -i <instance-name> -p <project-name>
 ```
 
 4. Example
 ```bash
-./add-ips.sh sample pantheon-sample
+./add-ips.sh -i sample -p pantheon-sample
+```
+
+5 Help
+```bash
+./add-ips.sh -h
 ```
